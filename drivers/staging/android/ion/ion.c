@@ -431,6 +431,7 @@ static int ion_dma_buf_end_cpu_access_partial(struct dma_buf *dmabuf,
 	struct ion_dma_buf_attachment *a;
 	int ret = 0;
 
+
 	if (!hlos_accessible_buffer(buffer))
 		return -EPERM;
 
